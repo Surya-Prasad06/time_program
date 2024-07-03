@@ -1,0 +1,28 @@
+body{
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    background-image: url(https://media.giphy.com/media/xT0BKltzpdLTjhoVRm/giphy.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+#timercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+#clock{
+    font-family: monospace;
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+    
+    color: rgb(0, 0, 0);
+    background-color: aliceblue 5px;
+    width: 100%;
+    
+}
